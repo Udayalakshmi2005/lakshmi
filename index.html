@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Creative Website</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Segoe UI', sans-serif;
+        }
+
+        body{
+            background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+            url("https://images.unsplash.com/photo-1498050108023-c5249f4df085");
+            background-size:cover;
+            background-attachment:fixed;
+            color:white;
+        }
+
+        /* Header */
+        header{
+            background:rgba(0,0,0,0.7);
+            padding:20px;
+        }
+
+        h1{
+            text-align:center;
+            color:#00ffff;
+            font-size:45px;
+            letter-spacing:3px;
+        }
+
+        /* Navigation */
+        nav{
+            text-align:center;
+            margin-top:15px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:20px;
+            font-size:20px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:yellow;
+        }
+
+        section{
+            padding:60px;
+        }
+
+        .box{
+            background:rgba(255,255,255,0.1);
+            padding:30px;
+            border-radius:15px;
+            margin-bottom:30px;
+            backdrop-filter:blur(5px);
+        }
+
+        h2{
+            color:#00ffff;
+            margin-bottom:20px;
+        }
+
+        p{
+            font-size:18px;
+            line-height:1.8;
+        }
+
+        /* Gallery */
+        .gallery{
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            flex-wrap:wrap;
+        }
+
+        .gallery img{
+            width:300px;
+            height:200px;
+            border-radius:15px;
+            border:3px solid white;
+        }
+
+        /* Contact */
+        .contact{
+            text-align:center;
+            font-size:22px;
+        }
+
+        footer{
+            background:black;
+            text-align:center;
+            padding:20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Creative Website</h1>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home">
+    <div class="box">
+        <h2>Welcome to Creative Website</h2>
+        <p>
+            Explore creativity with modern web design. This website provides
+            information about HTML and CSS and showcases beautiful gallery images.
+        </p>
+    </div>
+</section>
+
+<section id="about">
+    <div class="box">
+        <h2>About</h2>
+        <p>
+            Creative Website is designed to provide a stylish and user-friendly
+            experience. It helps beginners understand web development and learn
+            how HTML and CSS are used to build attractive websites.
+        </p>
+    </div>
+</section>
+
+<section id="services">
+    <div class="box">
+        <h2>Services</h2>
+
+        <h3>HTML</h3>
+        <p>
+            HTML (HyperText Markup Language) is used to create the structure of web pages.
+            It provides elements such as headings, paragraphs, images, forms, and links.
+        </p>
+        <br>
+
+        <h3>CSS</h3>
+        <p>
+            CSS (Cascading Style Sheets) is used to style web pages. It controls colors,
+            fonts, layouts, animations, backgrounds, and responsiveness to make websites
+            visually attractive.
+        </p>
+    </div>
+</section>
+
+<section id="gallery">
+    <div class="box">
+        <h2>Gallery</h2>
+
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Image 1">
+
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3" alt="Image 2">
+
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c" alt="Image 3">
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <div class="box contact">
+        <h2>Contact Us</h2>
+        <p>📞 Mobile Number: 8687334654</p>
+        <p>📧 Email: creativewebsite@gmail.com</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Creative Website | Designed with HTML & CSS</p>
+</footer>
+
+</body>
+</html>
